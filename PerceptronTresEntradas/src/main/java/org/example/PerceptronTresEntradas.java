@@ -10,16 +10,12 @@ public class PerceptronTresEntradas {
     /**
      * @bias é o limiar de ativação
      * */
-    Double bias = -0.5;
+    Double bias = 0.1;
 
     /**
      * @n taxa de aprendizado
      * */
-    Double n = 0.5;
-
-    int y1 = 0;
-    int epoca = 0;
-
+    Double n = 0.1;
 
     /**
      * Está sendo utilizado uma função de ativação degrau.
